@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item *)",
+      "PowerShell(python --version)",
+      "PowerShell(Get-NetTCPConnection *)",
+      "PowerShell(cd C:\\\\Users\\\\2485906\\\\Desktop\\\\PROJECTS\\\\PharmaBridge\\\\backend; Write-Host \"PWD: $\\(Get-Location\\)\"; Write-Host \"Files:\"; Get-ChildItem | ForEach-Object { Write-Host \"  $\\($_.Name\\)\" }; Write-Host \"Main exists: $\\(Test-Path .\\\\main.py\\)\")",
+      "PowerShell(Test-Path *)",
+      "PowerShell(npm *)",
+      "PowerShell(Remove-Item *)"
+    ]
+  }
+}
